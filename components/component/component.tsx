@@ -153,7 +153,7 @@ export function Component() {
 }
 
 
-function SunsetIcon(props) {
+function SunsetIcon(props:any) {
   return (
     <svg
       {...props}
@@ -180,7 +180,7 @@ function SunsetIcon(props) {
 }
 
 
-function CodeIcon(props) {
+function CodeIcon(props:any) {
   return (
     <svg
       {...props}
