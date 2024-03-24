@@ -147,6 +147,27 @@ export function Component() {
             </CardFooter>
           </Card>
         </div>
+        <div className="space-y-4">
+          <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Get in Touch</h2>
+          <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+            Interested in collaborating? Send me a message.
+          </p>
+          <form className="grid gap-4 md:gap-8">
+            <div className="grid gap-2">
+              <Label htmlFor="name">Name</Label>
+              <Input id="name" placeholder="Enter your name" required />
+            </div>
+            <div className="grid gap-2">
+              <Label htmlFor="email">Email</Label>
+              <Input id="email" placeholder="Enter your email" required type="email" />
+            </div>
+            <div className="grid gap-2">
+              <Label htmlFor="message">Message</Label>
+              <Textarea className="min-h-[200px] resize-y" id="message" placeholder="Enter your message" required />
+            </div>
+            <Button type="submit">Submit</Button>
+          </form>
+        </div>
       </main>
     </div>
   )
