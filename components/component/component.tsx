@@ -26,7 +26,7 @@ export function Component() {
       <main className="grid gap-6 lg:gap-12 px-4 lg:px-6">
         <div className="space-y-4 lg:space-y-0 lg:grid lg:grid-cols-[1fr_2fr] lg:items-center lg:gap-12 xl:grid-cols-[1fr_3fr]">
           <div className="flex flex-col justify-center space-y-2">
-            <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl md:text-6xl/none">Hi, I'm Hai Trinh</h1>
+            <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl md:text-6xl/none">Hi, I am Hai Trinh</h1>
             <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
               I build web experiences.
             </p>
