@@ -44,7 +44,7 @@ export function Component() {
         <div className="space-y-4">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">My Projects</h2>
           <p className="max-w-[800px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-            Here are some of the projects I've been working on.
+            Here are some of the projects I have been working on.
           </p>
         </div>
         <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
@@ -98,7 +98,7 @@ export function Component() {
                 </div>
               </div>
               <p className="text-sm text-gray-500 dark:text-gray-400">
-                A clone website of Meta's Messenger.
+                A clone website of Messenger in which real-time chat is enable
               </p>
             </CardContent>
             <CardFooter className="flex p-4 items-center">
