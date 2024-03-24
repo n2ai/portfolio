@@ -4,6 +4,7 @@
  */
 import Link from "next/link"
 import { CardContent, CardFooter, Card } from "@/components/ui/card"
+import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Label } from "@/components/ui/label"
 import { Input } from "@/components/ui/input"
@@ -31,7 +32,7 @@ export function Component() {
             </p>
           </div>
           <div className="mx-auto max-w-3xl space-y-6 lg:space-y-10">
-            <img
+            <Image
               alt="Hero"
               className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center"
               height="320"
